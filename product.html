@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+<!-- navbar -->
+<section class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10">
+     <h1 class="text-2xl">Greenden</h1>
+
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+     class="size-6">
+     <path stroke-linecap="round" stroke-linejoin="round"
+       d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" class="w-6 h-6 md:hidden" />
+   </svg>
+
+     <ul class="flex gap-3  text-gray-600 hidden md:flex">
+        <li>
+            <a href="index.html" class="hover:underline hover:text-black">Home</a>
+        </li>
+        <li>
+            <a href="product.html"class="hover:underline hover:text-black">Products</a>
+        </li>
+        <li>
+            <a href="contact.html"class="hover:underline hover:text-black">Contact</a>
+        </li>
+     </ul>
+
+</section>
+
+<!-- our products -->
+<section class="text-center">
+   <h1 class="text-center p-4 m-2 text-2xl font-bold">Our Products</h1>
+   <input type="text" class="border border-black p-2  " style="width: 80%;">
+</section>
+<!-- images -->
+
+<section class="text-center">
+    <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+        <div class="">
+            <img src="./images/best seller1.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/bestseller2.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best seller4.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best seller1.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best seller3.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best seller4.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/bestseller2.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+        <div>
+            <img src="./images/best seller3.jpg" alt=""  class="inline hover:shadow-xl transform hover:-translate-y-2">
+            <p>Rose Plant</p>
+            <p>$20</p>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<section class="bg-green-100 p-10 flex flex-col gap-4 mt-5">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <p>The Standard chunk of lorem ipsum is used since the 1500s is reproduced below for those interest</p>
+    <p>&copy;2021 Greenday.com</p>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
